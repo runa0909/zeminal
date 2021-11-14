@@ -5,16 +5,16 @@
     <title>メディアクエリ(CSS)</title>
     <style>
       h1{color: green;}
-	  @media all and (min-width: 520px) and (orientation: portrait){
-		  h1{color: red;}
+	  @media all and (min-width: 960px){
+		  h1{color: indigo;}
 		  img{width: 100%;}
 	  }
-	  @media all and (max-width: 520px) and (min-width: 960px) and (orientation: landscape){
+	  @media all and (min-width: 520px) and (max-width: 960px) and (orientation: landscape){
 		  h1{color: yellow;}
 		  img{width: 100%;}
 	  }
-	  @media all and (max-width: 960px)and (orientation: portrait){
-		  h1{color: indigo;}
+	  @media all and (max-width: 520px) and (orientation: portrait){
+		  h1{color: red;}
 		  img{width: 100%;}
 	  }
     </style>
