@@ -5,16 +5,16 @@
     <title>メディアクエリ(CSS)</title>
     <style>
       h1{color: green;}
-	  @media all and (min-height: 520px){
+	  @media all and (max-height: 520px){
 		  h1{color: red;}
 		  img{width: 100%;}
 	  }
 
-	  @media all and (min-height: 520px) and (max-height: 1300px){
+	  @media all and (max-height: 520px) and (min-height: 960px){
 		  h1{color: yellow;}
 		  img{width: 100%;}
 	  }
-	  	  @media all and (max-height: 1300px){
+	  	  @media all and (min-height: 960px){
 		  h1{color: indigo;}
 		  img{width: 100%;}
 	  }
