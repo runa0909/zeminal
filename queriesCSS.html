@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <title>メディアクエリ(CSS)</title>
     <style>
-      h1{color: green;}
-	  @media all and (max-height: 520px){
-		  h1{color: red;}
-		  img{width: 100%;}
-	  }
-
-	  @media all and (max-height: 520px) and (min-height: 960px){
-		  h1{color: yellow;}
-		  img{width: 100%;}
-	  }
-	  	  @media all and (min-height: 960px){
-		  h1{color: indigo;}
-		  img{width: 100%;}
-	  }
+	h1{color: indigo;}
+	img{width: 100%;}
+	@media all and (min-width: 520px){
+		h1{color: red;}
+		img{width: 100%;}
+	}
+	@media all and (min-width: 960px){
+		h1{color: yellow;}
+		img{width: 100%;}
+	}
     </style>
   </head>
   <body>
     <h1>Merry Christmas!</h1>
-    <img src="Christmas_s.jpg"><br>
+    	<img src="Christmas_s.jpg"><br>
 	<img src="Ornament_s.jpg">
   </body>
 </html>
